@@ -1,11 +1,11 @@
 body {
-	font-family: "Poppins", sans-serif;
-	background-color: rgba(234, 240, 242, 0.837);
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(234, 240, 242, 0.837);
 }
 
 .container {
-	max-width: 1400px;
-	margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .text-center {
@@ -74,50 +74,50 @@ section.secondary {
 }
 
 header {
-	background-image: linear-gradient(rgba(63, 75, 84, 0.6), rgba(63,75,84, 0.7)),
-		url("../images/hero2-img.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	padding: 200px 0;
+  background-image: linear-gradient(rgba(63, 75, 84, 0.6), rgba(63, 75, 84, 0.7)),
+    url("../images/hero2-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
 }
 
 header h1 {
-	font-size: 86px;
-	font-weight: 700;
-	line-height: 1;
-	margin: 30px 0;
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
 }
 
 header h2 {
-	font-size: 40px;
-	font-weight: 400;
-	line-height: 1.5;
-	margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
 }
 
 header h3 {
-	font-size: 24px;
-	font-weight: 900;
-	line-height: 1.5;
-	letter-spacing: 5px;
-	margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 header a {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.5;
-	text-align: center;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	text-decoration: none;
-	background: white;
-	padding: 16px 32px;
-	margin-top: 32px;
-	display: inline-block;
-	color: #272044;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  color: #272044;
 }
 
 main {
@@ -170,9 +170,9 @@ main p {
 
 
 footer {
-	color: white;
-	background-image: linear-gradient(rgba(63, 75, 84, 0.9), rgba(63, 75, 84, 0.9)),
-		url(../images/footer-img.png);
+  color: white;
+  background-image: linear-gradient(rgba(63, 75, 84, 0.9), rgba(63, 75, 84, 0.9)),
+    url(../images/footer-img.png);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,30 +208,35 @@ footer a {
 }
 
 @media (max-width: 960px) {
-	header {
-		padding: 60px 0;
-	}
+  header {
+    padding: 60px 0;
+  }
 
-	header h1 {
-		font-size: 43px;
-	}
+  header h1 {
+    font-size: 43px;
+  }
 
-	header h2 {
-		font-size: 20px;
-	}
+  header h2 {
+    font-size: 20px;
+  }
 
-	header h3 {
-		font-size: 12px;
-	}
+  header h3 {
+    font-size: 20px;
+  }
 
   main h4 {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   main h5 {
-    font-size: 12px;
+    font-size: 15px;
   }
 
+  main p {
+    font-size: 14px;
+  }
+
+  
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
