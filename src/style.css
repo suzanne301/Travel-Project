@@ -1,6 +1,6 @@
 body {
 	font-family: "Poppins", sans-serif;
-	background-color: #ffffff;
+	background-color: rgba(234, 240, 242, 0.837);
 }
 
 .container {
@@ -8,32 +8,73 @@ body {
 	margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
-  padding: 40px
+  /* padding: 40px */
 }
 
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #59aebb;
+  text-decoration: none;
+}
+
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+	background-image: linear-gradient(rgba(63, 75, 84, 0.6), rgba(63,75,84, 0.7)),
 		url("../images/hero2-img.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -89,7 +130,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #204443;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -98,7 +139,23 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #204443;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #204443;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #204443;
   margin: 0;
 }
 
@@ -107,14 +164,14 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #204443;
   opacity: 0.7;
 }
 
 
 footer {
 	color: white;
-	background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)),
+	background-image: linear-gradient(rgba(63, 75, 84, 0.9), rgba(63, 75, 84, 0.9)),
 		url(../images/footer-img.png);
 
   background-repeat: no-repeat;
@@ -166,6 +223,14 @@ footer a {
 	header h3 {
 		font-size: 12px;
 	}
+
+  main h4 {
+    font-size: 12px;
+  }
+
+  main h5 {
+    font-size: 12px;
+  }
 
   .grid {
     grid-template-columns: 1fr;
